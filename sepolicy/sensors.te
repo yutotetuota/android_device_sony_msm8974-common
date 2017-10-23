@@ -1,4 +1,0 @@
-# Connect to /dev/socket/tad
-unix_socket_connect(sensors, tad, tad)
-allow sensors ta_prop:file { getattr read open };
-
