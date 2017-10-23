@@ -102,8 +102,5 @@ TARGET_RIL_VARIANT := caf
 # SELinux
 include device/qcom/sepolicy/sepolicy.mk
 
-# RIL
-BOARD_PROVIDES_LIBRIL := true
-
 # Time
 BOARD_USES_QC_TIME_SERVICES := true
