@@ -13,6 +13,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Display rendering
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.hwc.mdpcomp.enable=true \
+    debug.hwui.use_buffer_age=false \
     debug.mdpcomp.logs=0 \
     debug.mdpcomp.4k2kSplit=1 \
     debug.mdpcomp.4k2kSplit=true \
