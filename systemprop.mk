@@ -36,6 +36,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Snapdragon audio processing
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.speaker.prot.enable=false \
+    persist.media.treble_omx=false \
     audio.deep_buffer.media=true \
     af.fast_track_multiplier=1 \
     audio_hal.period_size=192 \
