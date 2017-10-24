@@ -48,9 +48,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     media.aac_51_output_enabled=true \
     qcom.hw.aac.encoder=true
 
-# Storage & USB OTG
+# USB OTG
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.sys.sdcardfs=true \
     persist.sys.isUsbOtgEnabled=true
 
 # Dalvik
